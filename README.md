@@ -2,10 +2,9 @@
 
 This project demonstrates a **Kids Learning App** that provides an engaging and educational platform for children. It features secure user authentication, interactive learning materials, quiz modules, and more to enhance the learning experience. Built using **PHP**, **MySQL**, **HTML**, **CSS**, **JavaScript**, and **PHPMailer**, this app is designed to make learning both fun and secure.
 
-You can view a demo of the app in action below:
+You can view a demo of the app in action by clicking on the thumbnail below:
 
-[![Kids Learning App Demo](![image](https://github.com/user-attachments/assets/35f50646-697c-4829-92ce-76076980071e)
-)](https://www.dropbox.com/scl/fi/7hzyput3i3oe8207xqhib/Kids_Learning_App_Demo-Made-with-Clipchamp_1735755338412.mp4?rlkey=8yvedijmpieuwuxdyij9ubqom&st=58b7ci6i&dl=0)
+[![Kids Learning App Demo](https://img.youtube.com/vi/1735755338412/0.jpg)](https://www.dropbox.com/scl/fi/7hzyput3i3oe8207xqhib/Kids_Learning_App_Demo-Made-with-Clipchamp_1735755338412.mp4?rlkey=8yvedijmpieuwuxdyij9ubqom&st=58b7ci6i&dl=0)
 
 ## Key Features
 
@@ -31,7 +30,7 @@ You can view a demo of the app in action below:
 
 ## How to View the Demo
 
-To view the demo of the **Kids Learning App**, simply click on the link below:
+To view the demo of the **Kids Learning App**, simply click on the thumbnail above:
 
 [Watch the Kids Learning App Demo](https://www.dropbox.com/scl/fi/7hzyput3i3oe8207xqhib/Kids_Learning_App_Demo-Made-with-Clipchamp_1735755338412.mp4?rlkey=8yvedijmpieuwuxdyij9ubqom&st=58b7ci6i&dl=0)
 
@@ -43,4 +42,43 @@ To run the Kids Learning App locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/kids-learning-app.git
+   git clone https://github.com/SamiKhaji/kKids-Learning_WebApp.git
+## Installation
+
+To run the Kids Learning App locally, follow these steps:
+
+1. **Install PHP and MySQL** on your machine.
+    - You can download and install PHP from the official website: [PHP Downloads](https://www.php.net/downloads.php)
+    - For MySQL, you can use [XAMPP](https://www.apachefriends.org/index.html) or [MAMP](https://www.mamp.info/en/) to easily set up both PHP and MySQL together.
+
+2. **Set up the MySQL database** by importing the provided database schema (`kids_learning_app_db.sql`) into your MySQL instance.
+    - Open phpMyAdmin or your MySQL database management tool and import the `.sql` file to create the necessary tables and data.
+
+3. **Update the database configuration** in the `config.php` file with your database credentials.
+    - Open `config.php` and make sure to enter your MySQL username, password, and database name.
+
+4. **Install PHPMailer** via Composer:
+    ```bash
+    composer require phpmailer/phpmailer
+    ```
+
+5. **Set up your SMTP settings** in the `mailer_config.php` file to enable email delivery for the 2FA process.
+    - In the `mailer_config.php` file, configure your SMTP server settings (e.g., SMTP host, username, password, etc.) to enable email sending. You can use services like **Mailgun**, **SendGrid**, or **Gmail** for this.
+
+6. **Start your PHP server** and navigate to the app's URL in your browser.
+    - If using XAMPP or MAMP, you can start the server from the control panel.
+    - Open your browser and go to `http://localhost/kids-learning-app` or wherever you have hosted the app.
+
+## Usage
+
+- **For Admins**: Use the admin dashboard to manage users, quizzes, and learning materials.
+- **For Users**: Engage in interactive quizzes and learning modules, track progress, and participate in daily/weekly contests.
+- **For Content Management**: Admins can easily upload and manage educational materials and quizzes through the dashboard.
+- **Two-Factor Authentication (2FA)**: Users will receive a verification code via email (sent through **PHPMailer**) to authenticate their login and enhance account security.
+
+## Conclusion
+
+This **Kids Learning App** showcases how educational tools can be integrated with modern web technologies to create a secure, interactive, and efficient learning platform. It offers both a rich experience for users (children) and robust management capabilities for administrators. The integration of **PHP**, **MySQL**, **PHPMailer**, and interactive content makes it a versatile and scalable app for children's learning.
+
+Feel free to explore the demo, and let me know if you have any suggestions or feedback!
+
