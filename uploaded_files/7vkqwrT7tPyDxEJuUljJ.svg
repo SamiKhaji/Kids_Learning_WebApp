@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900">
+    <!-- Styles -->
+    <style>
+        .class-box { fill: white; stroke: black; stroke-width: 2; }
+        .class-name { font-weight: bold; font-family: Arial; }
+        .class-content { font-family: Arial; font-size: 14px; }
+        .arrow { stroke: black; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    
+    <!-- Arrow marker definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+        </marker>
+    </defs>
+    
+    <!-- Apple Class -->
+    <rect x="300" y="50" width="200" height="120" class="class-box"/>
+    <text x="370" y="80" class="class-name" text-anchor="middle">Apple</text>
+    <line x1="300" y1="90" x2="500" y2="90" stroke="black"/>
+    <text x="310" y="110" class="class-content">#string appleID</text>
+    <text x="310" y="130" class="class-content">#string productType</text>
+    <line x1="300" y1="140" x2="500" y2="140" stroke="black"/>
+    <text x="310" y="160" class="class-content">+displayInfo() virtual</text>
+
+    <!-- Camera Class -->
+    <rect x="550" y="50" width="200" height="120" class="class-box"/>
+    <text x="650" y="80" class="class-name" text-anchor="middle">Camera</text>
+    <line x1="550" y1="90" x2="750" y2="90" stroke="black"/>
+    <text x="560" y="110" class="class-content">#string cameraName</text>
+    <text x="560" y="130" class="class-content">#bool OIS</text>
+    <text x="560" y="150" class="class-content">#int megapixels</text>
+    <line x1="550" y1="160" x2="750" y2="160" stroke="black"/>
+
+    <!-- iPhone Class -->
+    <rect x="425" y="250" width="200" height="120" class="class-box"/>
+    <text x="525" y="280" class="class-name" text-anchor="middle">iPhone</text>
+    <line x1="425" y1="290" x2="625" y2="290" stroke="black"/>
+    <text x="435" y="310" class="class-content">#string model</text>
+    <line x1="425" y1="320" x2="625" y2="320" stroke="black"/>
+    <text x="435" y="340" class="class-content">+displayInfo() override</text>
+
+    <!-- iPhoneDynamicIsland Class -->
+    <rect x="300" y="450" width="200" height="100" class="class-box"/>
+    <text x="400" y="480" class="class-name" text-anchor="middle">iPhoneDynamicIsland</text>
+    <line x1="300" y1="490" x2="500" y2="490" stroke="black"/>
+    <text x="310" y="510" class="class-content">+displayInfo() override</text>
+
+    <!-- iPhoneWithActionButton Class -->
+    <rect x="550" y="450" width="200" height="100" class="class-box"/>
+    <text x="650" y="480" class="class-name" text-anchor="middle">iPhoneWithActionButton</text>
+    <line x1="550" y1="490" x2="750" y2="490" stroke="black"/>
+    <text x="560" y="510" class="class-content">+displayInfo() override</text>
+
+    <!-- iPhonePhase2 Class -->
+    <rect x="425" y="650" width="200" height="100" class="class-box"/>
+    <text x="525" y="680" class="class-name" text-anchor="middle">iPhonePhase2</text>
+    <line x1="425" y1="690" x2="625" y2="690" stroke="black"/>
+    <text x="435" y="710" class="class-content">+displayInfo() override</text>
+
+    <!-- Inheritance Arrows -->
+    <!-- Apple to iPhone -->
+    <path d="M 400 170 L 400 220 L 525 220 L 525 250" class="arrow"/>
+    <!-- Camera to iPhone -->
+    <path d="M 650 170 L 650 220 L 525 220 L 525 250" class="arrow"/>
+    <!-- iPhone to iPhoneDynamicIsland -->
+    <path d="M 525 370 L 525 410 L 400 410 L 400 450" class="arrow"/>
+    <!-- iPhone to iPhoneWithActionButton -->
+    <path d="M 525 370 L 525 410 L 650 410 L 650 450" class="arrow"/>
+    <!-- iPhoneDynamicIsland to iPhonePhase2 -->
+    <path d="M 400 550 L 400 600 L 525 600 L 525 650" class="arrow"/>
+    <!-- iPhoneWithActionButton to iPhonePhase2 -->
+    <path d="M 650 550 L 650 600 L 525 600 L 525 650" class="arrow"/>
+</svg>
