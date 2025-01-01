@@ -4,7 +4,8 @@ This project demonstrates a **Kids Learning App** that provides an engaging and 
 
 You can view a demo of the app in action below:
 
-[![Kids Learning App Demo](https://img.youtube.com/vi/1735755338412/0.jpg)](https://www.dropbox.com/scl/fi/7hzyput3i3oe8207xqhib/Kids_Learning_App_Demo-Made-with-Clipchamp_1735755338412.mp4?rlkey=8yvedijmpieuwuxdyij9ubqom&st=58b7ci6i&dl=0)
+[![Kids Learning App Demo](![image](https://github.com/user-attachments/assets/35f50646-697c-4829-92ce-76076980071e)
+)](https://www.dropbox.com/scl/fi/7hzyput3i3oe8207xqhib/Kids_Learning_App_Demo-Made-with-Clipchamp_1735755338412.mp4?rlkey=8yvedijmpieuwuxdyij9ubqom&st=58b7ci6i&dl=0)
 
 ## Key Features
 
