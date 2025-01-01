@@ -80,6 +80,7 @@ To run the Kids Learning App locally, follow these steps:
 ## Conclusion
 
 This **Kids Learning App** showcases how educational tools can be integrated with modern web technologies to create a secure, interactive, and efficient learning platform. It offers both a rich experience for users (children) and robust management capabilities for administrators. The integration of **PHP**, **MySQL**, **PHPMailer**, and interactive content makes it a versatile and scalable app for children's learning.
-
+## SENSITIVE FILES ARE DELETED HOPE YOU ENJOYED THE DEMO
+FOR FULL PROJECT ACCESS YOU CAN PING ME kmahammadsami959@gmail.com
 Feel free to explore the demo, and let me know if you have any suggestions or feedback!
 
