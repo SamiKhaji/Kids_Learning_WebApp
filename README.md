@@ -4,9 +4,7 @@ This project demonstrates a **Kids Learning App** that provides an engaging and 
 
 You can view a demo of the app in action below:
 
-[![Kids Learning App Demo](![image](https://github.com/user-attachments/assets/913632d1-773e-4df8-b835-1074bb03ff2c)
-)]
-(https://www.dropbox.com/scl/fi/7hzyput3i3oe8207xqhib/Kids_Learning_App_Demo-Made-with-Clipchamp_1735755338412.mp4?rlkey=8yvedijmpieuwuxdyij9ubqom&st=58b7ci6i&dl=0)
+[![Kids Learning App Demo](https://img.youtube.com/vi/1735755338412/0.jpg)](https://www.dropbox.com/scl/fi/7hzyput3i3oe8207xqhib/Kids_Learning_App_Demo-Made-with-Clipchamp_1735755338412.mp4?rlkey=8yvedijmpieuwuxdyij9ubqom&st=58b7ci6i&dl=0)
 
 ## Key Features
 
@@ -44,4 +42,4 @@ To run the Kids Learning App locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SamiKhaji/Kids_Learning_WebApp.git
+   git clone https://github.com/yourusername/kids-learning-app.git
